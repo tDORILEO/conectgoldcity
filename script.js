@@ -8,6 +8,8 @@ window.onload = function() {
         // Redireciona para o link
         window.location.href = linkDeConexao;
 
+        // Exibe uma mensagem de confirmação antes de fechar
+        if (confirm("Você será desconectado do navegador. Deseja continuar?")) {
             window.close(); // Fecha a janela do navegador
         }
     }, 1000);
